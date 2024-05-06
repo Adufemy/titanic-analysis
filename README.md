@@ -1,6 +1,6 @@
 ## objectives
 ````sql
-select category,
+### select category,
 (select avg(sales)from global_superstore)as overall_avg,
  (select sum(sales) from global_superstore)as overall_total_sales,
  (select sum(sales) from global_superstore)
